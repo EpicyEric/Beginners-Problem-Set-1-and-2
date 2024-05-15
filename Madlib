@@ -1,0 +1,18 @@
+def mad_lib():
+    print("Welcome to Mad Libs!")
+    name = input("What is your name? ")
+    adjective = input("Enter an adjective (describing word): ")
+    verb = input("enter a verb: ")
+    place = input("Enter a place: ")
+    food = input("Enter a food: ")
+    vehicle = input("Enter a vehicle: ")
+    ending = input("Enter a ending")
+    feeling = input("enter a feeling")
+
+    mad_lib_sentence = f"{name} is a very {adjective} person to be around. He love to {verb} in {place}. His favourite food is {food} which they eat in a {vehicle}. At last they {ending} in {feeling}"
+    
+    print(mad_lib_sentence)
+
+
+
+mad_lib()
